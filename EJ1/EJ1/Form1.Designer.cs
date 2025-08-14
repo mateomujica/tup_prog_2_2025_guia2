@@ -38,7 +38,7 @@
             // 
             // btnListar
             // 
-            btnListar.Location = new Point(681, 40);
+            btnListar.Location = new Point(372, 41);
             btnListar.Name = "btnListar";
             btnListar.Size = new Size(75, 23);
             btnListar.TabIndex = 0;
@@ -48,7 +48,7 @@
             // 
             // btnAgregar
             // 
-            btnAgregar.Location = new Point(681, 93);
+            btnAgregar.Location = new Point(372, 94);
             btnAgregar.Name = "btnAgregar";
             btnAgregar.Size = new Size(75, 23);
             btnAgregar.TabIndex = 1;
@@ -58,7 +58,7 @@
             // 
             // btnVer
             // 
-            btnVer.Location = new Point(681, 158);
+            btnVer.Location = new Point(372, 159);
             btnVer.Name = "btnVer";
             btnVer.Size = new Size(75, 23);
             btnVer.TabIndex = 2;
@@ -67,7 +67,7 @@
             // 
             // btnModificar
             // 
-            btnModificar.Location = new Point(681, 228);
+            btnModificar.Location = new Point(372, 229);
             btnModificar.Name = "btnModificar";
             btnModificar.Size = new Size(75, 23);
             btnModificar.TabIndex = 3;
@@ -76,7 +76,7 @@
             // 
             // btnEliminar
             // 
-            btnEliminar.Location = new Point(681, 306);
+            btnEliminar.Location = new Point(372, 307);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(75, 23);
             btnEliminar.TabIndex = 4;
@@ -85,10 +85,10 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(46, 45);
+            textBox1.Location = new Point(49, 66);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(594, 284);
+            textBox1.Size = new Size(263, 185);
             textBox1.TabIndex = 5;
             // 
             // Form1
@@ -104,6 +104,7 @@
             Controls.Add(btnListar);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }

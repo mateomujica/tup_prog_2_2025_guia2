@@ -62,7 +62,8 @@ namespace EJ1.Models
 
             if (idx>0)
             {
-                personas
+                personas[idx] = personas[contador];
+                contador--;
             }
                
 

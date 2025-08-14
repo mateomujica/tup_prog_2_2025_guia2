@@ -1,3 +1,5 @@
+using EJ1.Models;
+
 namespace EJ1
 {
     public partial class Form1 : Form
@@ -7,6 +9,8 @@ namespace EJ1
             InitializeComponent();
         }
 
+        Servicio servicio = new Servicio();
+
         private void btnListar_Click(object sender, EventArgs e)
         {
 
@@ -14,9 +18,15 @@ namespace EJ1
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            Form2 f2 = new Form2();           
+
+            Form2 f2 = new Form2();
             f2.ShowDialog();
 
+
+        }
+        List <asdsadasd>
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
         }
     }
